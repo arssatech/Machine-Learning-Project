@@ -1,0 +1,20 @@
+# Python & Jupyter
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Virtual Environment
+.venv/
+env/
+venv/
+
+# Ignore file data & model besar (kecuali file .gitkeep)
+data/*
+!data/.gitkeep
+models/*
+!models/.gitkeep
+
+# OS / IDE Cache
+.DS_Store
+.vscode/
+.idea/
